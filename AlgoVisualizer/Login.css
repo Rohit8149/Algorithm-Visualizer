@@ -1,0 +1,143 @@
+/* Reset default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-image: url('adele-payman-2oYMwuFgnTg-unsplash.jpg'); /* Replace with the correct path */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.language-switch {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.lang-dropdown {
+    padding: 10px;
+    background-color: #ffffff;
+    color: #000;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    max-width: 400px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    backdrop-filter: blur(10px);
+}
+
+.login-section {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.6); /* Making the login box transparent */
+    border-radius: 10px;
+    backdrop-filter: blur(5px); /* Adding a blur effect for a glassmorphic look */
+    transition: all 0.3s ease-in-out;
+}
+
+.login-section:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 16px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+}
+
+.sign-in-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #38ef7d;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.sign-in-btn:hover {
+    background-color: #11998e;
+}
+
+.forgot-pass {
+    margin-top: 10px;
+}
+
+.forgot-pass a {
+    font-size: 14px;
+    color: #38ef7d;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.forgot-pass a:hover {
+    color: #11998e;
+}
+
+.sign-up-prompt {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.sign-up-prompt p {
+    font-size: 14px;
+}
+
+.sign-up-prompt a {
+    color: #38ef7d;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.sign-up-prompt a:hover {
+    color: #11998e;
+}
+.text{
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Login Page</title>
+    <link rel="stylesheet" href="/Login.css">
+</head>
+<body>
+    <div id="google_translate_element" style="display: none;"></div>
+
+    <div class="container">
+        <div class="login-section">
+            <div class="login-box">
+                <h1>User Login</h1>
+                <p>Welcome to Algo Visualizer</p>
+                <form>
+                    <input type="text" placeholder="Mobile Number" required>
+                    <input type="password" placeholder="Password" required>
+                    <button type="submit" class="sign-in-btn">
+                        <a  class = "text" href="">Login</a>
+                    </button>
+                </form>
+                <div class="forgot-pass">
+                    <a href="#">Forgot Password?</a>
+                </div>
+                <div class="sign-up-prompt">
+                    <p>Don't have an account? <a href="#">Create one</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script>
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement(
+                {pageLanguage: 'en', includedLanguages: 'hi,mr,fr,es,de,it,ja,zh-CN', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 
+                'google_translate_element'
+            );
+        }
+
+        function triggerGoogleTranslate(selectElement) {
+            const selectedLanguage = selectElement.value;
+            const translateElement = document.querySelector("#google_translate_element select");
+
+            if (selectedLanguage && translateElement) {
+                translateElement.value = selectedLanguage;
+                translateElement.dispatchEvent(new Event('change'));
+            }
+        }
+    </script> -->
+</body>
+</html>

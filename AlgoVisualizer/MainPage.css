@@ -1,0 +1,116 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Ensure the body uses the full height */
+html, body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+/* Header and Top Navigation Styles */
+header {
+    /* border: 30px; */
+    background-color: #b0ce8d; /* Dark background for the nav bar */
+    color: #fff;
+}
+
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    border: 30px;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #4c88cd;
+    border-bottom: 1px solid rgb(177, 62, 62);
+}
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+.nav-left h1 {
+    margin: 10;
+    margin-left: 30rem;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15px;
+    font-size: 24px;
+}
+
+.nav-right .profile-img {
+    width: 40px; /* Adjust size as needed */
+    height: 40px; /* Adjust size as needed */
+    border-radius: 50%; /* Circular profile picture */
+    object-fit: cover; /* Ensures the image covers the area properly */
+}
+
+/* Container for layout */
+.container {
+    display: flex;
+    height: calc(100vh - 60px); /* Adjust based on header/footer height */
+}
+
+/* Side Navigation Styles */
+.side-nav {
+    width: 250px; /* Width of the vertical nav bar */
+    background-color: #d9e1e3; /* Light grey background */
+    padding: 10px;
+}
+
+.side-nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.side-nav ul li {
+    margin: 10px 0;
+}
+
+.side-nav ul li a {
+    text-decoration: none;
+    color: #333; /* Dark grey color for text */
+    display: block;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.side-nav ul li a:hover {
+    background-color: #a9c5dc; /* Light grey background on hover */
+}
+
+
+/* Main Content Styles */
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f4f4f4;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.sign-in-btn {
+    /* background-color: #99ab5a; Red color */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.sign-in-btn:hover {
+    background-color: #738b5d;
+}
+.profile_img{
+    width: 3rem;
+    background-color: white;
+    border-radius: 50%;
+}
+.image{
+    width: 8rem;
+}
